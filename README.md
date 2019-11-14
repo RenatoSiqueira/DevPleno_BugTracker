@@ -22,6 +22,11 @@
 - Renomeie o .env-default para .env
 - Preencha o docId com o id do seu documento google-spreadsheet
 - Preencha o SENDGRID_API_KEY com seu KEY do [sendgrid](https://sendgrid.com/)
+- Preencha os seguintes segundo sua conta Google
+    - private_key_id
+    - private_key
+    - client_email
+    - client_id
 
 
 ### How to
