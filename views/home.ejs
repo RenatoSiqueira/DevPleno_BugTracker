@@ -1,29 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<% include components/header %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BugTracker</title>
-</head>
+<div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <div class="contact100-pic js-tilt" data-tilt style="padding-right: inherit;">
+                <img src="images/img-01.png" alt="IMG">
+            </div>
 
-<body>
-    <h1>Ferramenta de Relato de Bugs</h1>
-    <p>Preencha dos dados a seguir</p>
-    <form action="POST">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email">
-        <label for="howToReproduce">Como reproduzir o erro?</label>
-        <input type="text" id="howToReproduce" name="howToReproduce">
-        <label for="expectedOutput">A saída experada?</label>
-        <input type="text" id="expectedOutput" name="expectedOutput">
-        <label for="receivedOutput">A saída recebida?</label>
-        <input type="text" id="receivedOutput" name="receivedOutput">
-        <button>Enviar</button>
-    </form>
+            <form class="contact100-form validate-form" method="POST" style="width: 550px;">
+                <span class="contact100-form-title" style="text-align: center;">
+                    Ferramenta de Relato de Bugs
+                </span>
+
+                <div class="form-row">
+                    <div class="col wrap-input100 validate-input">
+                        <input class="input100" type="text" name="name" placeholder="Nome" required>
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </span>
+                    </div>
+
+                    <div class="col wrap-input100 validate-input">
+                        <input class="input100" type="text" name="email" placeholder="Email">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <select name="issueType" id="issueType" class="form-control"
+                        style="color: #a7a2a2; border-radius: 25px; height: 50px; background: #e6e6e6; border: none; font-family: Montserrat-Bold; font-size: 15px; padding-left: 30px;">
+                        <option value="" selected>Selecione</option>
+                        <option value="CRITICAL">Crítico</option>
+                        <option value="BUG">BUG</option>
+                        <option value="ENHANCEMENT">Melhoria</option>
+                    </select>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <textarea class="input100" name="howToReproduce" placeholder="Como reproduzir o erro?"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <textarea class="input100" name="expectedOutput" placeholder="A saída experada?"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <textarea class="input100" name="receivedOutput" placeholder="A saída recebida?"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <input type="hidden" name="userAgent" id="userAgent">
+                <input type="hidden" name="userDate" id="userDate">
+
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 </body>
 
 </html>

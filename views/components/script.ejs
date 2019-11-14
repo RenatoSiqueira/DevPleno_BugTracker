@@ -1,0 +1,8 @@
+<script>
+    document.onreadystatechange = () => {
+        if (document.readyState === 'interactive') {
+            document.getElementById('userAgent').value = window.navigator.userAgent
+            document.getElementById('userDate').value = new Date()
+        }
+    }
+</script>

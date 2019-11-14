@@ -1,0 +1,54 @@
+<% include components/header %>
+
+<div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <div class="contact100-pic js-tilt" data-tilt style="padding-right: inherit;">
+                <img src="images/img-01.png" alt="IMG">
+            </div>
+
+            <form class="contact100-form validate-form" method="POST" style="width: 550px;">
+                <span class="contact100-form-title" style="text-align: center;">
+                    Ferramenta de Relato de Bugs
+                </span>
+
+                <div class="col-md-12 success" id="messagebox">
+                    <div class="row" style="padding: 10px">
+                        <div class="col-md-2" id="messagebox-icon">
+                            <span class="fa fa-2x fa-check text-success"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="row h5" id="messagebox-header">Enviado com Sucesso</div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <span class="fa fa-check-circle text-success"></span>
+                                </div>
+                                <div class="col-md-10">
+                                    Usuário: <%= name %>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <span class="fa fa-check-circle text-success"></span>
+                                </div>
+                                <div class="col-md-10">
+                                    Tipo: <%= source %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <a href="/" class="contact100-form-btn">
+                        Enviar Novo Bug
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

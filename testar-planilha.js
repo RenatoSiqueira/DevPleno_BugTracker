@@ -1,5 +1,6 @@
 const GoogleSpreadsheet = require('google-spreadsheet')
 const credentials = require('./bugtracker.json')
+const { promisify } = require('util')
 
 const doc = new GoogleSpreadsheet()
 doc.useServiceAccountAuth(credentials, (err) => {
