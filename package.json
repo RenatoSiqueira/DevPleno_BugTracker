@@ -1,0 +1,17 @@
+{
+  "name": "DevPleno_BugTracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/RenatoSiqueira/DevPleno_BugTracker.git",
+  "author": "Renato Siqueira <renatoelysiqueira@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^2.0.8"
+  }
+}
