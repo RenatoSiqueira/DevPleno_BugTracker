@@ -5,9 +5,6 @@
 
 ![Project](https://github.com/RenatoSiqueira/DevPleno_BugTracker/blob/master/bugtracker.gif)
 
-Added new Error Screen
-![Project](https://github.com/RenatoSiqueira/DevPleno_BugTracker/blob/master/errorScreen.png)
-
 Excel Results on Google Spreadsheet
 ![Project](https://github.com/RenatoSiqueira/DevPleno_BugTracker/blob/master/excelResults.png)
 
