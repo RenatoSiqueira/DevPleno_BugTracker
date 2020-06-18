@@ -4,7 +4,13 @@
 - Construção de um gerenciador de bugs, desde a concepção (descrição do problema) até sua conclusão (utilizando integração com o google spreadsheet).
 
 ![Project](https://github.com/RenatoSiqueira/DevPleno_BugTracker/blob/master/bugtracker.gif)
+
+Added new Error Screen
 ![Project](https://github.com/RenatoSiqueira/DevPleno_BugTracker/blob/master/errorScreen.png)
+
+Excel Results on Google Spreadsheet
+![Project](https://github.com/RenatoSiqueira/DevPleno_BugTracker/blob/master/excelResults.png)
+
 
 ### App Online
 [Ver  Online](https://bugtracker.renatosiqueira.dev/)
