@@ -345,6 +345,9 @@ textarea.input100 {
 [ Responsive ]*/
 
 @media (max-width: 1200px) {
+  .wrap-contact100 {
+    justify-content: center;
+  }
   .contact100-pic {
     width: 33.5%;
   }
@@ -360,7 +363,7 @@ textarea.input100 {
   }
 
   .contact100-pic {
-    width: 35%;
+    display: none;
   }
 
   .contact100-form {
