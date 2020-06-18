@@ -35,4 +35,3 @@
 # yarn start
 # acessar http://localhost:{PORTA_DEFINIDA_NO_ENV}
 ```
-
